@@ -1,0 +1,21 @@
+# Core
+ultralytics
+torch
+torchvision
+
+# Computer Vision
+opencv-python
+
+# API
+fastapi
+uvicorn
+
+# Image handling
+python-multipart
+Pillow
+
+# Environment variables
+python-dotenv
+
+# numpy operations
+numpy

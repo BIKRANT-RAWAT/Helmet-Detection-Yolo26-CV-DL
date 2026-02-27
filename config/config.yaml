@@ -1,0 +1,20 @@
+roboflow:
+  workspace: imagerecognition-43zpb
+  project: helmet-detection-ntbfz
+  version: 18
+  format: yolo26
+
+training:
+  epochs: 50
+  imgsz: 640
+  batch: 16
+  optimizer: AdamW
+  lr0: 0.001
+  patience: 5
+  amp: True
+  close_mosaic: 30
+
+paths:
+  dataset_root: data/
+  project_name: helmet_exp
+  artifacts: artifacts/
